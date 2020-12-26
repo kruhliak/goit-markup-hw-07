@@ -1,0 +1,41 @@
+.company-list {
+    display: flex;
+  }
+  
+  .company-list > .item {
+    width: 170px;
+    height: 90px;
+    margin: 0;
+    padding: 0;
+  }
+  .company-list > .item:not(:last-child) {
+    margin-right: 30px;
+  }
+  
+  .company-icon:hover > .icon,
+  .company-icon:focus > .icon {
+    fill: var(--accent-color);
+  }
+  
+  .company-icon {
+    display: block;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    border: 1px solid var(--primary-icon-color);
+    border-radius: 4px;
+    justify-content: center;
+    align-items: center;
+    color: var(--primary-icon-color);
+  }
+  
+  .company-icon .icon {
+    fill: currentColor;
+  }
+  
+  .company-icon:hover,
+  .company-icon:focus {
+    border-color: var(--accent-color);
+  }
