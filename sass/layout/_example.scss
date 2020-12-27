@@ -9,21 +9,25 @@
     margin: 15px 15px 0 15px;
     width: calc((1170px - 60px) / 3);
     background-color: #ffffff;
+
+    &:nth-child(-n + 3) {
+      margin-top: 0;
+    }
   }
   
-  .example-list > .item:nth-child(-n + 3) {
-    margin-top: 0;
-  }
+  
   
   .example-list .link {
     border: 1px solid #eeeeee;
-  }
-  
-  .example-list .link:hover,
-  .example-list .link:focus {
+
+    &:hover,
+  &:focus {
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
       1px 4px 6px rgba(0, 0, 0, 0.16);
   }
+  }
+  
+  
   
   .example-list .title {
     color: var(--title-text-color);

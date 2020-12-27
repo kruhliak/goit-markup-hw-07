@@ -3,7 +3,10 @@
 
 @import "./base/common";
 @import "./base/container";
+
+@import "./components/backdrop";
 @import "./components/sections";
+
 @import "./layout/header";
 @import "./layout/hero";
 @import "./layout/feature";
@@ -11,6 +14,3 @@
 @import "./layout/team";
 @import "./layout/company";
 @import "./layout/footer";
-@import "./layout/filtr";
-@import "./layout/example";
-@import "./components/backdrop";

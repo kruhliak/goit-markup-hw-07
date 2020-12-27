@@ -17,11 +17,13 @@
   
   .feature-list > .item {
     width: calc((1170px - 90px) / 4);
+
+   &:not(:last-child) {
+      margin-right: 30px;
+    }
   }
   
-  .feature-list > .item:not(:last-child) {
-    margin-right: 30px;
-  }
+  
   
   .feature-list .icon {
     width: 270px;
